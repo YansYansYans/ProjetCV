@@ -9,3 +9,31 @@ div.tete hr{position: absolute; left: 300px; top: 200px; width: 100px; border-co
 
 div#marge{background-color: #FF5722; height: 2000px; width: 220px; display: inline-block; position: absolute; left: 0px;}
 div#marge img{position: absolute; left: 10px; top: 10px; width: 200px;}
+
+div#marge div.cont{position: absolute; top: 300px; color: #FF5722; background-color: #616161; width: 220px; font-family: Calibri; margin-left: 0px;}
+div#marge div.cont p{margin-left: 60px;}
+
+div#marge div.add{position: absolute; top: 370px;}
+div#marge div.add p{font-family: Calibri; position: absolute; left: 30px; color: #616161;}
+div#marge div.add p a{text-decoration: none; color: #616161;}
+div#marge div.add p a:hover{color: White;}
+
+div#marge div.tel{position: absolute; top: 430px;}
+div#marge div.tel p{font-family: Calibri; position: absolute; left: 30px; color: #616161;}
+div#marge div.tel p a{text-decoration: none; color: #616161;}
+div#marge div.tel p a:hover{color: White;}
+
+div#marge div.mail{position: absolute; top: 490px;}
+div#marge div.mail p{font-family: Calibri; position: absolute; left: 30px; color: #616161;}
+div#marge div.mail p a{text-decoration: none; color: #616161;}
+div#marge div.mail p a:hover{color: White;}
+
+div#marge div.site{position: absolute; top: 550px;}
+div#marge div.site p{font-family: Calibri; position: absolute; left: 30px;color: #616161;}
+div#marge div.site p a{text-decoration: none; color: #616161;}
+div#marge div.site p a:hover{color: White;}
+
+div#marge div.moi{position: absolute; top: 640px; color: #FF5722; background-color: #616161; width: 220px; font-family: Calibri; margin-left: 0px;} 
+div#marge div.moi p{margin-left: 45px;}
+
+div#marge div.text p{position: absolute; top: 700px; left: 30px; right: 30px; font-family: Calibri; color: #616161;}
