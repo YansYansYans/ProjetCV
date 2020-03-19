@@ -1,4 +1,8 @@
-div.tete h1.prenom{color: #FF5722; font-size: 55px; font-family: Calibri; display: inline-block; position: absolute; left: 300px; top: 50px;}
+div.tete h1.prenom{color: #FF5722; font-size: 55px; font-family: Calibri; position: absolute; left: 300px; top: 50px;}
 div.tete h1.prenom:hover{color: black;}
-div.tete h1.prenom2{color: black; font-size: 55px;}
-div.tete h1.prenom2:hover{color: #FF5722; font-family: Calibri; display: inline-block; position: absolute; left: 500px; top: 50px;}
+div.tete h1.prenom2{color: black; font-size: 55px;  font-family: Calibri; position: absolute; left: 500px; top: 50px;}
+div.tete h1.prenom2:hover{color: #FF5722;}
+div.tete h1.prenom2{display: inline-block;}
+div.tete h1.prenom{display: inline-block;}
+div.tete p.metier{position: absolute; left: 300px; top: 135px; font-family: Calibri Light; color: #616161; font-size: 27px;}
+div.tete hr{position: absolute; left: 300px; top: 200px; width: 100px; border-color: #FF5722;}
