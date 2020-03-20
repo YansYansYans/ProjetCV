@@ -70,3 +70,9 @@ div.experience p.date2{position: absolute; left: 330px; top: 985px; color: #6161
 
 div.experience h3.distributeur{position: absolute; left: 460px; top: 980px; color: #616161; font-family: Calibri;}
 div.experience p.text2{position: absolute; left: 460px; top: 1015px; color: #616161; font-family: Calibri; margin-right: 550px;}
+
+.fa-pencil-alt{position: absolute; left: 300px; top: 1200px; color: #FF5722;}
+h2.reco{position: absolute; left: 370px; top: 1185px; color: Black; font-family: Calibri;}
+div.recommandation hr{position: absolute; left: 300px; top: 1240px; width: 500px; border-color: #FF5722;}
+
+h3.max{position: absolute; left: 300px; top: 1270px; color: #616161; font-family: Calibri;}
