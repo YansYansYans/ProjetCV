@@ -54,3 +54,19 @@ p.datee{position: absolute; left: 330px; top: 610px; color: #616161; font-family
 
 div.forma h3.bac{position: absolute; left: 460px; top: 600px; color: #616161; font-family: Calibri;}
 div.forma p.lit{position: absolute; left: 460px; top: 635px; color: #616161; font-family: Calibri;}
+
+.fa-briefcase{position: absolute; left: 300px; top: 750px; color: #FF5722;}
+h2.pro{position: absolute; left: 370px; top: 735px; color: Black; font-family: Calibri;}
+div.experience hr{position: absolute; left: 300px; top: 790px; width: 500px; border-color: #FF5722;}
+
+div.experience .fa-dot-circle{position: absolute; left: 300px; top: 840px; color: #FF5722;}
+p.date1{position: absolute; left: 330px; top: 835px; color: #616161; font-family: Calibri;}
+
+h3.regulateur{position: absolute; left: 460px; top: 825px; color: #616161; font-family: Calibri;}
+p.text1{position: absolute; left: 460px; top: 860px; color: #616161; font-family: Calibri; margin-right: 550px;}
+
+div.experience .fa-circle{position: absolute; left: 300px; top: 990px; color: #FF5722;}
+div.experience p.date2{position: absolute; left: 330px; top: 985px; color: #616161; font-family: Calibri;}
+
+div.experience h3.distributeur{position: absolute; left: 460px; top: 980px; color: #616161; font-family: Calibri;}
+div.experience p.text2{position: absolute; left: 460px; top: 1015px; color: #616161; font-family: Calibri; margin-right: 550px;}
