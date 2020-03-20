@@ -41,3 +41,16 @@ div#marge div.text p{position: absolute; top: 700px; left: 30px; right: 30px; fo
 .fa-graduation-cap{position: absolute; left: 300px; top: 320px; color: #FF5722;}
 h2.dip{position: absolute; left: 370px; top: 305px; color: Black; font-family: Calibri;}
 div.forma hr{position: absolute; left: 300px; top: 360px; width: 500px; border-color: #FF5722;}
+
+.fa-dot-circle{position: absolute; left: 300px; top: 420px; color: #FF5722;}
+p.date{position: absolute; left: 330px; top: 400px; color: #616161; font-family: Calibri;}
+
+div.forma h3.open{position: absolute; left: 460px; top: 390px; color: #616161; font-family: Calibri;}
+div.forma p.dev{position: absolute; left: 460px; top: 425px; color: #616161; font-family: Calibri;}
+div.forma p.des{position: absolute; left: 460px; top: 450px; color: #616161; font-family: Calibri; margin-right: 550px;}
+
+.fa-circle{position: absolute; left: 300px; top: 630px; color: #FF5722;}
+p.datee{position: absolute; left: 330px; top: 610px; color: #616161; font-family: Calibri;}
+
+div.forma h3.bac{position: absolute; left: 460px; top: 600px; color: #616161; font-family: Calibri;}
+div.forma p.lit{position: absolute; left: 460px; top: 635px; color: #616161; font-family: Calibri;}
