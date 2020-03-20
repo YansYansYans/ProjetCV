@@ -37,3 +37,7 @@ div#marge div.moi{position: absolute; top: 640px; color: #FF5722; background-col
 div#marge div.moi p{margin-left: 45px;}
 
 div#marge div.text p{position: absolute; top: 700px; left: 30px; right: 30px; font-family: Calibri; color: #616161;}
+
+.fa-graduation-cap{position: absolute; left: 300px; top: 320px; color: #FF5722;}
+h2.dip{position: absolute; left: 370px; top: 305px; color: Black; font-family: Calibri;}
+div.forma hr{position: absolute; left: 300px; top: 360px; width: 500px; border-color: #FF5722;}
