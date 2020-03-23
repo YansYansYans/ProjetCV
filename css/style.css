@@ -7,7 +7,7 @@ div.tete h1.prenom{display: inline-block;}
 div.tete p.metier{position: absolute; left: 300px; top: 135px; font-family: Calibri Light; color: #616161; font-size: 27px;}
 div.tete hr{position: absolute; left: 300px; top: 200px; width: 100px; border-color: #FF5722;}
 
-div#marge{background-color: #FF5722; height: 2000px; width: 220px; display: inline-block; position: absolute; left: 0px;}
+div#marge{background-color: #FF5722; height: 1500px; width: 220px; display: inline-block; position: absolute; left: 0px;}
 div#marge img{position: absolute; left: 10px; top: 10px; width: 200px;}
 
 div#marge div.cont{position: absolute; top: 300px; color: #FF5722; background-color: #616161; width: 220px; font-family: Calibri; margin-left: 0px;}
@@ -76,3 +76,10 @@ h2.reco{position: absolute; left: 370px; top: 1185px; color: Black; font-family:
 div.recommandation hr{position: absolute; left: 300px; top: 1240px; width: 500px; border-color: #FF5722;}
 
 h3.max{position: absolute; left: 300px; top: 1270px; color: #616161; font-family: Calibri;}
+h3.maxx{position: absolute; left: 550px; top: 1270px; color: #616161; font-family: 	Calibri;}
+
+h3.dir{position: absolute;left: 300px; top: 1300px; color: #616161; font-family: Calibri;}
+h3.dirr{position: absolute;left: 550px; top: 1300px; color: #616161; font-family: Calibri;}
+
+h3.mmm{position: absolute;left: 300px; top: 1350px; color: #616161; font-family: Calibri; font-weight: normal;}
+h3.mmmm{position: absolute;left: 550px; top: 1350px; color: #616161; font-family: Calibri; font-weight: normal;}
