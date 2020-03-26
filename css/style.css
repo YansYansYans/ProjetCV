@@ -92,7 +92,7 @@ h3.dirr{position: absolute;left: 550px; top: 1300px; color: #616161; font-family
 h3.mmm{position: absolute;left: 300px; top: 1350px; color: #616161; font-family: Calibri; font-weight: normal;}
 h3.mmmm{position: absolute;left: 550px; top: 1350px; color: #616161; font-family: Calibri; font-weight: normal;}
 
-@media screen and (max-width: 1280px)
+@media all and (max-device-width: 480px)
 {
 	div#marge{height: 19%; width: 100%; z-index: 1;}
 	div#marge img{width: 100px;}
@@ -165,7 +165,7 @@ h3.mmmm{position: absolute;left: 550px; top: 1350px; color: #616161; font-family
 	div.experience h3.distributeur{position: absolute; left: 160px; top: 216%; color: #616161; font-family: Calibri;}
 	div.experience p.text2{position: absolute; left: 30px; top: 227%; color: #616161; font-family: Calibri; margin-right: 10%; text-align: justify;}
 
-.fa-pencil-alt{position: absolute; left: 30px; top: 255%; color: #FF5722;}
+	.fa-pencil-alt{position: absolute; left: 30px; top: 255%; color: #FF5722;}
 	h2.reco{position: absolute; left: 100px; top: 252%; color: Black; font-family: Calibri;}
 	div.recommandation hr{position: absolute; left: 0px; top: 250%; width: 100%; border-color: #FF5722;}
 
