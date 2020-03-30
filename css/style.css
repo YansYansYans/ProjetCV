@@ -1,189 +1,854 @@
-div.tete h1.prenom{color: #FF5722; font-size: 55px; font-family: Calibri; position: absolute; left: 300px; top: 50px;}
-div.tete h1.prenom:hover{color: black;}
-div.tete h1.prenom2{color: black; font-size: 55px;  font-family: Calibri; position: absolute; left: 500px; top: 50px;}
-div.tete h1.prenom2:hover{color: #FF5722;}
-div.tete h1.prenom2{display: inline-block;}
-div.tete h1.prenom{display: inline-block;}
-div.tete p.metier{position: absolute; left: 300px; top: 135px; font-family: Calibri Light; color: #616161; font-size: 27px;}
-div.tete hr{position: absolute; left: 300px; top: 200px; width: 100px; border-color: #FF5722;}
+div.tete h1.prenom {
+	color: #FF5722; 
+	font-size: 55px; 
+	font-family: Calibri; 
+	position: absolute; 
+	left: 300px; 
+	top: 50px;
+}
+div.tete h1.prenom:hover {
+	color: black;
+}
+div.tete h1.prenom2 {
+	color: black; 
+	font-size: 55px;  
+	font-family: Calibri; 
+	position: absolute; 
+	left: 500px; 
+	top: 50px;
+}
+div.tete h1.prenom2:hover {
+	color: #FF5722;
+}
+div.tete h1.prenom2 {
+	display: inline-block;
+}
+div.tete h1.prenom {
+	display: inline-block;
+}
+div.tete p.metier {
+	position: absolute; 
+	left: 300px; 
+	top: 130px; 
+	font-family: Calibri Light; 
+	color: #616161; 
+	font-size: 27px;
+}
+div.tete hr {
+	position: absolute; 
+	left: 300px; 
+	top: 200px; 
+	width: 100px;
+	border-color: #FF5722;
+}
 
 /**/
 
-div#marge{background-color: #FF5722; height: 1500px; width: 220px; display: inline-block; position: absolute; left: 0px;}
-div#marge img{position: absolute; left: 10px; top: 10px; width: 200px;}
+div#marge {
+	background-color: #FF5722; 
+	height: 1500px; 
+	width: 220px; 
+	display: inline-block;
+	position: absolute; 
+	left: 0px;
+}
+div#marge img {
+	position: absolute; 
+	left: 10px; 
+	top: 10px; 
+	width: 200px;
+}
 
-div#marge div.cont{position: absolute; top: 300px; color: #FF5722; background-color: #616161; width: 220px; font-family: Calibri; margin-left: 0px;}
-div#marge div.cont p{margin-left: 60px;}
+div#marge div.cont {
+	position: absolute; 
+	top: 300px; 
+	color: #FF5722; 
+	background-color: #616161; 
+	width: 220px; 
+	font-family: Calibri; 
+	margin-left: 0px;
+}
+div#marge div.cont p {
+	margin-left: 60px;
+}
 
-div#marge div.add{position: absolute; top: 370px;}
-div#marge div.add p{font-family: Calibri; position: absolute; left: 30px; color: #616161;}
-div#marge div.add p a{text-decoration: none; color: #616161;}
-div#marge div.add p a:hover{color: White;}
+div#marge div.add {
+	position: absolute; 
+	top: 370px;
+}
+div#marge div.add p {
+	font-family: Calibri; 
+	position: absolute; 
+	left: 30px; 
+	color: #616161;
+}
+div#marge div.add p a {
+	text-decoration: none; 
+	color: #616161;
+}
+div#marge div.add p a:hover {
+	color: White;
+}
 
-div#marge div.tel{position: absolute; top: 430px;}
-div#marge div.tel p{font-family: Calibri; position: absolute; left: 30px; color: #616161;}
-div#marge div.tel p a{text-decoration: none; color: #616161;}
-div#marge div.tel p a:hover{color: White;}
+div#marge div.tel {
+	position: absolute; 
+	top: 430px;
+}
+div#marge div.tel p {
+	font-family: Calibri; 
+	position: absolute; 
+	left: 30px; 
+	color: #616161;
+}
+div#marge div.tel p a {
+	text-decoration: none; 
+	color: #616161;
+}
+div#marge div.tel p a:hover {
+	color: White;
+}
 
-div#marge div.mail{position: absolute; top: 490px;}
-div#marge div.mail p{font-family: Calibri; position: absolute; left: 30px; color: #616161;}
-div#marge div.mail p a{text-decoration: none; color: #616161;}
-div#marge div.mail p a:hover{color: White;}
+div#marge div.mail {
+	position: absolute; 
+	top: 490px;
+}
+div#marge div.mail p {
+	font-family: Calibri; 
+	position: absolute; 
+	left: 30px; 
+	color: #616161;
+}
+div#marge div.mail p a {
+	text-decoration: none; 
+	color: #616161;
+}
+div#marge div.mail p a:hover {
+	color: White;
+}
 
-div#marge div.site{position: absolute; top: 550px;}
-div#marge div.site p{font-family: Calibri; position: absolute; left: 30px;color: #616161;}
-div#marge div.site p a{text-decoration: none; color: #616161;}
-div#marge div.site p a:hover{color: White;}
+div#marge div.site {
+	position: absolute; 
+	top: 550px;
+}
+div#marge div.site p {
+	font-family: Calibri; 
+	position: absolute; 
+	left: 30px;
+	color: #616161;
+}
+div#marge div.site p a {
+	text-decoration: none; 
+	color: #616161;
+}
+div#marge div.site p a:hover {
+	color: White;
+}
 
-div#marge div.moi{position: absolute; top: 640px; color: #FF5722; background-color: #616161; width: 220px; font-family: Calibri; margin-left: 0px;} 
-div#marge div.moi p{margin-left: 45px;}
+div#marge div.moi {
+	position: absolute; 
+	top: 640px; 
+	color: #FF5722; 
+	background-color: #616161; 
+	width: 220px; 
+	font-family: Calibri; 
+	margin-left: 0px;
+} 
+div#marge div.moi p {
+	margin-left: 45px;
+}
 
-div#marge div.text p{position: absolute; top: 700px; left: 30px; right: 30px; font-family: Calibri; color: #616161;}
+div#marge div.text p {
+	position: absolute; 
+	top: 700px; 
+	left: 30px; 
+	right: 30px; 
+	font-family: Calibri; 
+	color: #616161; 
+	text-align: justify;
+}
 
 /**/
 
-.fa-graduation-cap{position: absolute; left: 300px; top: 320px; color: #FF5722;}
-h2.dip{position: absolute; left: 370px; top: 305px; color: Black; font-family: Calibri;}
-div.forma hr{position: absolute; left: 300px; top: 360px; width: 500px; border-color: #FF5722;}
+.fa-graduation-cap {
+	position: absolute; 
+	left: 300px; 
+	top: 320px; 
+	color: #FF5722;
+}
+h2.dip {
+	position: absolute; 
+	left: 370px; 
+	top: 305px; 
+	color: Black; 
+	font-family: Calibri;
+}
+div.forma hr {
+	position: absolute; 
+	left: 300px; 
+	top: 360px; 
+	width: 500px; 
+	border-color: #FF5722;
+}
 
-.fa-dot-circle{position: absolute; left: 300px; top: 420px; color: #FF5722;}
-p.date{position: absolute; left: 330px; top: 400px; color: #616161; font-family: Calibri;}
+.fa-dot-circle {
+	position: absolute; 
+	left: 300px; 
+	top: 420px; 
+	color: #FF5722;
+}
+p.date {
+	position: absolute; 
+	left: 330px; 
+	top: 400px; 
+	color: #616161; 
+	font-family: Calibri;
+}
 
-div.forma h3.open{position: absolute; left: 460px; top: 390px; color: #616161; font-family: Calibri;}
-div.forma p.dev{position: absolute; left: 460px; top: 425px; color: #616161; font-family: Calibri;}
-div.forma p.des{position: absolute; left: 460px; top: 450px; color: #616161; font-family: Calibri; margin-right: 550px;}
+div.forma h3.open {
+	position: absolute; 
+	left: 460px; 
+	top: 390px; 
+	color: #616161; 
+	font-family: Calibri;
+}
+div.forma p.dev {
+	position: absolute; 
+	left: 460px; 
+	top: 425px; 
+	color: #616161; 
+	font-family: Calibri;
+}
+div.forma p.des {
+	position: absolute; 
+	left: 460px; 
+	top: 450px; 
+	color: #616161; 
+	font-family: Calibri; 
+	margin-right: 550px;
+}
 
-.fa-circle{position: absolute; left: 300px; top: 630px; color: #FF5722;}
-p.datee{position: absolute; left: 330px; top: 610px; color: #616161; font-family: Calibri;}
+.fa-circle {
+	position: absolute; 
+	left: 300px; 
+	top: 630px; 
+	color: #FF5722;
+}
+p.datee {
+	position: absolute; 
+	left: 330px; 
+	top: 610px; 
+	color: #616161; 
+	font-family: Calibri;
+}
 
-div.forma h3.bac{position: absolute; left: 460px; top: 600px; color: #616161; font-family: Calibri;}
-div.forma p.lit{position: absolute; left: 460px; top: 635px; color: #616161; font-family: Calibri;}
+div.forma h3.bac {
+	position: absolute; 
+	left: 460px; 
+	top: 600px; 
+	color: #616161; 
+	font-family: Calibri;
+}
+div.forma p.lit {
+	position: absolute; 
+	left: 460px; 
+	top: 635px; 
+	color: #616161; 
+	font-family: Calibri;
+}
   
 /**/
 
-.fa-briefcase{position: absolute; left: 300px; top: 750px; color: #FF5722;}
-h2.pro{position: absolute; left: 370px; top: 735px; color: Black; font-family: Calibri;}
-div.experience hr{position: absolute; left: 300px; top: 790px; width: 500px; border-color: #FF5722;}
+.fa-briefcase {
+	position: absolute; 
+	left: 300px; 
+	top: 750px; 
+	color: #FF5722;
+}
+h2.pro {
+	position: absolute; 
+	left: 370px; 
+	top: 735px; 
+	color: Black; 
+	font-family: Calibri;
+}
+div.experience hr {
+	position: absolute; 
+	left: 300px; 
+	top: 790px; 
+	width: 500px; 
+	border-color: #FF5722;
+}
 
-div.experience .fa-dot-circle{position: absolute; left: 300px; top: 840px; color: #FF5722;}
-p.date1{position: absolute; left: 330px; top: 835px; color: #616161; font-family: Calibri;}
+div.experience .fa-dot-circle {
+	position: absolute; 
+	left: 300px; 
+	top: 840px; 
+	color: #FF5722;
+}
+p.date1 {
+	position: absolute; 
+	left: 330px; 
+	top: 835px; 
+	color: #616161; 
+	font-family: Calibri;
+}
 
-h3.regulateur{position: absolute; left: 460px; top: 825px; color: #616161; font-family: Calibri;}
-p.text1{position: absolute; left: 460px; top: 860px; color: #616161; font-family: Calibri; margin-right: 550px;}
+h3.regulateur {
+	position: absolute; 
+	left: 460px; 
+	top: 825px; 
+	color: #616161; 
+	font-family: Calibri;
+}
+p.text1 {
+	position: absolute; 
+	left: 460px; 
+	top: 860px; 
+	color: #616161; 
+	font-family: Calibri;
+	margin-right: 550px;
+}
 
-div.experience .fa-circle{position: absolute; left: 300px; top: 990px; color: #FF5722;}
-div.experience p.date2{position: absolute; left: 330px; top: 985px; color: #616161; font-family: Calibri;}
+div.experience .fa-circle {
+	position: absolute; 
+	left: 300px; 
+	top: 990px; 
+	color: #FF5722;
+}
+div.experience p.date2 {
+	position: absolute; 
+	left: 330px; 
+	top: 985px; 
+	color: #616161; 
+	font-family: Calibri;
+}
 
-div.experience h3.distributeur{position: absolute; left: 460px; top: 980px; color: #616161; font-family: Calibri;}
-div.experience p.text2{position: absolute; left: 460px; top: 1015px; color: #616161; font-family: Calibri; margin-right: 550px;}
+div.experience h3.distributeur {
+	position: absolute; 
+	left: 460px; 
+	top: 980px; 
+	color: #616161; 
+	font-family: Calibri;
+}
+div.experience p.text2 {
+	position: absolute; 
+	left: 460px; 
+	top: 1015px; 
+	color: #616161; 
+	font-family: Calibri; 
+	margin-right: 550px;
+}
 
 /**/
 
-.fa-pencil-alt{position: absolute; left: 300px; top: 1200px; color: #FF5722;}
-h2.reco{position: absolute; left: 370px; top: 1185px; color: Black; font-family: Calibri;}
-div.recommandation hr{position: absolute; left: 300px; top: 1240px; width: 500px; border-color: #FF5722;}
+.fa-pencil-alt {
+	position: absolute; 
+	left: 300px; 
+	top: 1200px; 
+	color: #FF5722;
+}
+h2.reco {
+	position: absolute; 
+	left: 370px; 
+	top: 1185px; 
+	color: Black; 
+	font-family: Calibri;
+}
+div.recommandation hr {
+	position: absolute; 
+	left: 300px; 
+	top: 1240px; 
+	width: 500px; 
+	border-color: #FF5722;
+}
 
-h3.max{position: absolute; left: 300px; top: 1270px; color: #616161; font-family: Calibri;}
-h3.maxx{position: absolute; left: 550px; top: 1270px; color: #616161; font-family: 	Calibri;}
+h3.max {
+	position: absolute; 
+	left: 300px; 
+	top: 1270px; 
+	color: #616161; 
+	font-family: Calibri;
+}
+h3.maxx {
+	position: absolute; 
+	left: 550px; 
+	top: 1270px; 
+	color: #616161; 
+	font-family: Calibri;
+}
 
-h3.dir{position: absolute;left: 300px; top: 1300px; color: #616161; font-family: Calibri;}
-h3.dirr{position: absolute;left: 550px; top: 1300px; color: #616161; font-family: Calibri;}
+h3.dir {
+	position: absolute;
+	left: 300px; 
+	top: 1300px; 
+	color: #616161; 
+	font-family: Calibri;
+}
+h3.dirr {
+	position: absolute;
+	left: 550px; 
+	top: 1300px; 
+	color: #616161; 
+	font-family: Calibri;
+}
 
-h3.mmm{position: absolute;left: 300px; top: 1350px; color: #616161; font-family: Calibri; font-weight: normal;}
-h3.mmmm{position: absolute;left: 550px; top: 1350px; color: #616161; font-family: Calibri; font-weight: normal;}
+h3.mmm {
+	position: absolute;
+	left: 300px; 
+	top: 1350px; 
+	color: #616161; 
+	font-family: Calibri; 
+	font-weight: normal;
+}
+h3.mmmm {
+	position: absolute;
+	left: 550px; 
+	top: 1350px; 
+	color: #616161; 
+	font-family: Calibri; 
+	font-weight: normal;
+}
 
 @media all and (max-device-width: 480px)
 {
-	div#marge{height: 15%; width: 100%; z-index: 1;}
-	div#marge img{width: 23%;}
+	div#marge {
+		height: 15%; 
+		width: 100%; 
+		z-index: 1;
+	}
+	div#marge img {
+		width: 23%;
+	}
 	
-	div.tete h1.prenom{position: absolute; left: 30%; top: -1%; font-size: 500%; color: white; z-index: 10;}
-	div.tete h1.prenom2{position: absolute; left: 30%; top: 4%; font-size: 500%; color: black; z-index: 10;}
-	div.tete h1.prenom:hover{color: white;}
-	div.tete h1.prenom2:hover{color: black;}
-	div.tete p.metier{position: absolute; left: 30%; top: 10%; font-size: 200%; z-index: 10;}
-	div.tete hr{width: 0px; position: absolute; top: 1%;}
+	div.tete h1.prenom {
+		position: absolute; 
+		left: 30%; 
+		top: -1%; 
+		font-size: 500%; 
+		color: white; 
+		z-index: 10;
+	}
+	div.tete h1.prenom2 {
+		position: absolute; 
+		left: 30%; 
+		top: 4%; 
+		font-size: 500%;
+		color: black; 
+		z-index: 10;
+	}
+	div.tete h1.prenom:hover {
+		color: white;
+	}
+	div.tete h1.prenom2:hover {
+		color: black;
+	}
+	div.tete p.metier {
+		position: absolute; 
+		left: 30%; 
+		top: 10%; 
+		font-size: 200%; 
+		z-index: 10;
+	}
+	div.tete hr {
+		width: 0px; 
+		position: absolute; 
+		top: 1%;
+	}
 
-	div#marge div.cont{position: absolute; top: 100%; color: #FF5722; background-color: #616161; width: 100%; font-family: Calibri; margin-left: 0px; height: 40%;}
-	div#marge div.cont p{margin-left: 35%; font-size: 300%; position: absolute; top: -20%;}
+	div#marge div.cont {
+		position: absolute; 
+		top: 100%; 
+		color: #FF5722; 
+		background-color: #616161; 
+		width: 100%; 
+		font-family: Calibri; 
+		margin-left: 0px; 
+		height: 40%;
+	}
+	div#marge div.cont p {
+		margin-left: 35%; 
+		font-size: 300%; 
+		position: absolute; 
+		top: -20%;
+	}
 
-	div#marge div.add{position: absolute; top: 150%; left: 10%;}
-	div#marge div.add p{font-family: Calibri; color: #616161; font-size: 200%;}
-	div#marge div.add p a{text-decoration: none; color: #616161;}
-	div#marge div.add p a:hover{color: #FF5722;}
+	div#marge div.add {
+		position: absolute; 
+		top: 150%; 
+		left: 10%;
+	}
+	div#marge div.add p {
+		font-family: Calibri; 
+		color: #616161; 
+		font-size: 200%;
+	}
+	div#marge div.add p a {
+		text-decoration: none; 
+		color: #616161;
+	}
+	div#marge div.add p a:hover {
+		color: #FF5722;
+	}
 
-	div#marge div.tel{position: absolute; top: 150%; left: 30%;}
-	div#marge div.tel p{font-family: Calibri; position: absolute; left: 200px; color: #616161; font-size: 200%;}
-	div#marge div.tel p a{text-decoration: none; color: #616161;}
-	div#marge div.tel p a:hover{color: #FF5722;}
+	div#marge div.tel {
+		position: absolute; 
+		top: 150%; 
+		left: 30%;
+	}
+	div#marge div.tel p {
+		font-family: Calibri; 
+		position: absolute; 
+		left: 200px; 
+		color: #616161; 
+		font-size: 200%;
+	}
+	div#marge div.tel p a {
+		text-decoration: none; 
+		color: #616161;
+	}
+	div#marge div.tel p a:hover {
+		color: #FF5722;
+	}
 
-	div#marge div.mail{position: absolute; top: 200%; left: 10%;}
-	div#marge div.mail p{font-family: Calibri; position: absolute; left: 30px; color: #616161; font-size: 200%;}
-	div#marge div.mail p a{text-decoration: none; color: #616161;}
-	div#marge div.mail p a:hover{color: #FF5722;}
+	div#marge div.mail {
+		position: absolute; 
+		top: 200%; 
+		left: 10%;
+	}
+	div#marge div.mail p {
+		font-family: Calibri; 
+		position: absolute; 
+		left: 30px; 
+		color: #616161; 
+		font-size: 200%;
+	}
+	div#marge div.mail p a {
+		text-decoration: none;
+		color: #616161;
+	}
+	div#marge div.mail p a:hover {
+		color: #FF5722;
+	}
 
-	div#marge div.site{position: absolute; top: 200%; left: 30%;}
-	div#marge div.site p{font-family: Calibri; position: absolute; left: 200px;color: #616161; font-size: 200%;}
-	div#marge div.site p a{text-decoration: none; color: #616161;}
-	div#marge div.site p a:hover{color: #FF5722;}
+	div#marge div.site {
+		position: absolute; 
+		top: 200%; 
+		left: 30%;
+	}
+	div#marge div.site p {
+		font-family: Calibri; 
+		position: absolute; 
+		left: 200px;
+		color: #616161; 
+		font-size: 200%;
+	}
+	div#marge div.site p a {
+		text-decoration: none;
+		color: #616161;
+	}
+	div#marge div.site p a:hover {
+		color: #FF5722;
+	}
 
-	div#marge div.moi{height: 40%; position: absolute; top: 280%; color: #FF5722; background-color: #616161; width: 100%; font-family: Calibri; margin-left: 0px;} 
-	div#marge div.moi p{margin-left: 30%; font-size: 300%; position: absolute; top: -20%;}
+	div#marge div.moi {
+		height: 40%; 
+		position: absolute; 
+		top: 280%; 
+		color: #FF5722; 
+		background-color: #616161; 
+		width: 100%; 
+		font-family: Calibri; 
+		margin-left: 0px;
+	} 
+	div#marge div.moi p {
+		margin-left: 30%; 
+		font-size: 300%; 
+		position: absolute; 
+		top: -20%;
+	}
 
-	div#marge div.text p{position: absolute; top: 340%; left: 5%; right: 5%; font-family: Calibri; color: #616161; text-align: justify; font-size: 200%;}
+	div#marge div.text p {
+		position: absolute; 
+		top: 340%; 
+		left: 5%; 
+		right: 5%; 
+		font-family: Calibri; 
+		color: #616161; 
+		text-align: justify;
+		font-size: 200%;
+	}
 
-	.fa-graduation-cap{position: absolute; left: 5%; top: 86%; color: #FF5722;}
-	h2.dip{position: absolute; left: 20%; top: 83%; color: Black; font-family: Calibri; font-size: 400%;}
-	div.forma hr{position: absolute; left: 0px; top: 80%; width: 100%; border-color: #FF5722; background-color: #FF5722; height: 15px;}
-	div.forma i.fa-graduation-cap{font-size: 500%;}
+	.fa-graduation-cap {
+		position: absolute; 
+		left: 5%; 
+		top: 86%; 
+		color: #FF5722;
+	}
+	h2.dip {
+		position: absolute; 
+		left: 20%; 
+		top: 83%; 
+		color: Black; 
+		font-family: Calibri; 
+		font-size: 400%;
+	}
+	div.forma hr {
+		position: absolute; 
+		left: 0px; 
+		top: 80%; 
+		width: 100%;
+		border-color: #FF5722; 
+		background-color: #FF5722; 
+		height: 15px;
+	}
+	div.forma i.fa-graduation-cap {
+		font-size: 500%;
+	}
 
-	.fa-dot-circle{position: absolute; left: 5%; top: 100%; color: #FF5722;}
-	p.date{position: absolute; left: 15%; top: 97%; color: #616161; font-family: Calibri; font-size: 200%;}
-	div.forma i.fa-dot-circle{font-size: 200%;}
+	.fa-dot-circle {
+		position: absolute; 
+		left: 5%; 
+		top: 100%; 
+		color: #FF5722;
+	}
+	p.date {
+		position: absolute; 
+		left: 15%; 
+		top: 97%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 200%;
+	}
+	div.forma i.fa-dot-circle {
+		font-size: 200%;
+	}
 
-	div.forma h3.open{position: absolute; left: 40%; top: 95%; color: #616161; font-family: Calibri; font-size: 250%;}
-	div.forma p.dev{position: absolute; left: 40%; top: 100%; color: #616161; font-family: Calibri;  font-size: 200%;}
-	div.forma p.des{position: absolute; left: 5%; top: 108%; right: -50%; color: #616161; font-size: 200%; font-family: Calibri; text-align: justify;}
+	div.forma h3.open {
+		position: absolute; 
+		left: 40%; 
+		top: 95%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 250%;
+	}
+	div.forma p.dev {
+		position: absolute; 
+		left: 40%; 
+		top: 100%; 
+		color: #616161; 
+		font-family: Calibri;  
+		font-size: 200%;
+	}
+	div.forma p.des {
+		position: absolute; 
+		left: 5%; 
+		top: 108%; 
+		right: -50%; 
+		color: #616161; 
+		font-size: 200%; 
+		font-family: Calibri; 
+		text-align: justify;
+	}
 
-	.fa-circle{position: absolute; left: 5%; top: 127%; color: #FF5722;}
-	p.datee{position: absolute; left: 15%; top: 124%; color: #616161; font-family: Calibri; font-size: 200%;}
-	div.forma i.fa-circle{font-size: 200%;}
+	.fa-circle {
+		position: absolute; 
+		left: 5%; 
+		top: 127%; 
+		color: #FF5722;
+	}
+	p.datee {
+		position: absolute; 
+		left: 15%; 
+		top: 124%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 200%;
+	}
+	div.forma i.fa-circle {
+		font-size: 200%;
+	}
 
-	div.forma h3.bac{position: absolute; left: 40%; top: 122%; color: #616161; font-family: Calibri; font-size: 250%;}
-	div.forma p.lit{position: absolute; left: 40%; top: 127%; color: #616161; font-family: Calibri; font-size: 200%;}
+	div.forma h3.bac {
+		position: absolute; 
+		left: 40%; 
+		top: 122%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 250%;
+	}
+	div.forma p.lit {
+		position: absolute; 
+		left: 40%; 
+		top: 127%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 200%;
+	}
 
-	.fa-briefcase{position: absolute; left: 5%; top: 151%; color: #FF5722;}
-	h2.pro{position: absolute; left: 20%; top: 148%; color: Black; font-family: Calibri; font-size: 400%;}
-	div.experience hr{position: absolute; left: 0px; top: 145%; width: 100%; border-color: #FF5722;  background-color: #FF5722; height: 15px;}
-	div.experience i.fa-briefcase{font-size: 500%;}
+	.fa-briefcase {
+		position: absolute; 
+		left: 5%; 
+		top: 151%; 
+		color: #FF5722;
+	}
+	h2.pro {
+		position: absolute; 
+		left: 20%; 
+		top: 148%; 
+		color: Black; 
+		font-family: Calibri;
+		font-size: 400%;
+	}
+	div.experience hr {
+		position: absolute; 
+		left: 0px; 
+		top: 145%; 
+		width: 100%; 
+		border-color: #FF5722;  
+		background-color: #FF5722;
+		height: 15px;
+	}
+	div.experience i.fa-briefcase {
+		font-size: 500%;
+	}
 
-	div.experience .fa-dot-circle{position: absolute; left: 5%; top: 165%; color: #FF5722;}
-	p.date1{position: absolute; left: 15%; top: 164%; color: #616161; font-family: Calibri; font-size: 200%;}
-	div.experience .fa-dot-circle{font-size: 200%;}
+	div.experience .fa-dot-circle {
+		position: absolute; 
+		left: 5%; 
+		top: 165%; 
+		color: #FF5722;
+	}
+	p.date1 {
+		position: absolute; 
+		left: 15%; 
+		top: 164%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 200%;
+	}
+	div.experience .fa-dot-circle {
+		font-size: 200%;
+	}
 
-	h3.regulateur{position: absolute; left: 40%; top: 162%; color: #616161; font-family: Calibri; font-size: 250%;}
-	p.text1{position: absolute; left: 5%; top: 175%; right: -50%; font-size: 200%; color: #616161; font-family: Calibri; text-align: justify;}
+	h3.regulateur {
+		position: absolute; 
+		left: 40%; 
+		top: 162%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 250%;
+	}
+	p.text1 {
+		position: absolute; 
+		left: 5%; 
+		top: 175%; 
+		right: -50%; 
+		font-size: 200%; 
+		color: #616161; 
+		font-family: Calibri; 
+		text-align: justify;
+	}
 
-	div.experience .fa-circle{position: absolute; left: 5%; top: 192%; color: #FF5722;}
-	div.experience p.date2{position: absolute; left: 15%; top: 191%; color: #616161; font-family: Calibri; font-size: 200%;}
-	div.experience .fa-circle{font-size: 200%;}
+	div.experience .fa-circle {
+		position: absolute; 
+		left: 5%; 
+		top: 192%; 
+		color: #FF5722;
+	}
+	div.experience p.date2 {
+		position: absolute; 
+		left: 15%; 
+		top: 191%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 200%;
+	}
+	div.experience .fa-circle {
+		font-size: 200%;
+	}
 
-	div.experience h3.distributeur{position: absolute; left: 40%; top: 189%; color: #616161; font-family: Calibri; font-size: 250%;}
-	div.experience p.text2{position: absolute; left: 5%; right: -50%; top: 202%; color: #616161; font-family: Calibri; font-size: 200%; text-align: justify;}
+	div.experience h3.distributeur {
+		position: absolute; 
+		left: 40%; 
+		top: 189%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 250%;
+	}
+	div.experience p.text2 {
+		position: absolute; 
+		left: 5%; 
+		right: -50%; 
+		top: 202%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 200%; 
+		text-align: justify;
+	}
 
-	.fa-pencil-alt{position: absolute; left: 5%; top: 233%; color: #FF5722;}
-	h2.reco{position: absolute; left: 20%; top: 230%; color: Black; font-family: Calibri; font-size: 400%;}
-	div.recommandation hr{position: absolute; left: 0px; top: 227%; width: 100%; border-color: #FF5722;  background-color: #FF5722; height: 15px;}
-	div.recommandation .fa-pencil-alt{font-size: 500%;}
+	.fa-pencil-alt {
+		position: absolute; 
+		left: 5%; 
+		top: 233%; 
+		color: #FF5722;
+	}
+	h2.reco {
+		position: absolute; 
+		left: 20%; 
+		top: 230%; 
+		color: Black; 
+		font-family: Calibri; 
+		font-size: 400%;
+	}
+	div.recommandation hr {
+		position: absolute; 
+		left: 0px; 
+		top: 227%; 
+		width: 100%; 
+		border-color: #FF5722;  
+		background-color: #FF5722; 
+		height: 15px;
+	}
+	div.recommandation .fa-pencil-alt {
+		font-size: 500%;
+	}
 
-	h3.max{position: absolute; left: 30%; top: 243%; color: #616161; font-family: Calibri; font-size: 200%;}
-	h3.maxx{display: none;}
+	h3.max {
+		position: absolute; 
+		left: 30%; 
+		top: 243%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 200%;
+	}
+	h3.maxx {
+		display: none;
+	}
 
-	h3.dir{position: absolute;left: 30%; top: 247%; color: #616161; font-family: Calibri; font-size: 200%;}
-	h3.dirr{display: none;}
+	h3.dir {
+		position: absolute;
+		left: 30%; 
+		top: 247%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-size: 200%;
+	}
+	h3.dirr {
+		display: none;
+	}
 
-	h3.mmm{position: absolute;left: 30%; top: 251%; color: #616161; font-family: Calibri; font-weight: normal; padding-bottom: 80px; font-size: 200%;}
-	h3.mmmm{display: none;}
+	h3.mmm {
+		position: absolute;
+		left: 30%; 
+		top: 251%; 
+		color: #616161; 
+		font-family: Calibri; 
+		font-weight: normal; 
+		padding-bottom: 80px; 
+		font-size: 200%;
+	}
+	h3.mmmm {
+		display: none;
+	}
 
 
-}
