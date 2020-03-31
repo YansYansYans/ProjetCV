@@ -22,6 +22,21 @@ i.far {
 	color: #FF5722;
 }
 
+hr {
+	border-color: #FF5722;
+	margin-top: -1%;
+	width: 50%;
+	margin-left: 0%;
+	margin-bottom: 5%;
+}
+
+.blockright {
+	margin-left: 5%;
+}
+
+h2 {
+	margin-top: 0%;
+}
 /*********************************************************MARGE DE GAUCHE*******************************************************************/
 .marge {
 	background-color: #FF5722;
@@ -32,7 +47,6 @@ i.far {
 	margin-left: 15%;
 	margin-top: 10%;
 	border-radius: 25px;
-
 }
 .marge h1 {
 	background-color: #616161;
@@ -40,16 +54,96 @@ i.far {
 	font-weight: normal;
 	margin-bottom: 15%;
 	margin-top: 20%;
- 
+ 	font-size: x-large;
+ 	text-align: center;
 }
-.contact h1 {
-	padding-left: 23%;
-	padding-right: 23%;
+.contact p a{
+	text-decoration: none;
+	color: #616161;
 }
-.moi h1 {
-	padding-left: 13%;
-	padding-right: 13%;
+.contact p a:hover{
+	color: white;
 }
-
+.contact p{
+	color: #616161;
+	text-align: left;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.moi p {
+	color: #616161;
+	text-align: justify;
+	margin-left: 15%;
+	margin-right: 15%;
+}
 /*********************************************************FIN MARGE DE GAUCHE*******************************************************************/
+
+/*********************************************************TETE DE PAGE*******************************************************************/
+.titre h1 {
+	color: #FF5722;
+	font-size: 4em;
+	display: inline-block;
+}
+.titre h1.nom {
+	color: #616161;
+	margin-left: 2%;
+}
+.metier {
+	font-size: 1.5em;
+	color: #616161;
+	margin-top: -3%;
+}
+.titre hr {
+	width: 10%;
+	margin-left: 0%;
+}
+.titre {
+	margin-bottom: 10%;
+}
+/*********************************************************FIN TETE DE PAGE*******************************************************************/
+
+/*********************************************************SECTION DIPLOME*******************************************************************/
+.diplometitre {
+	display: flex;
+}
+.diplometitre i {
+	margin-right: 3%;
+}
+.diplomedate {
+	display: flex;
+}
+.diplomedate i {
+	margin-right: 2%;
+}
+.diplomedate p {
+	margin-top: 0%;
+}
+/*********************************************************FIN SECTION DIPLOME*******************************************************************/
+
+/*********************************************************SECTION EXPERIENCE*******************************************************************/
+.experiencetitre {
+	display: flex;
+}
+.experiencetitre i {
+	margin-right: 3%;
+}
+.experiencedate {
+	display: flex;
+}
+.experiencedate i {
+	margin-right: 2%;
+}
+.experiencedate p {
+	margin-top: 0%;
+}
+/*********************************************************FIN SECTION EXPERIENCE*******************************************************************/
+
+/*********************************************************SECTION RECOMMANDATION*******************************************************************/
+.recommandationtitre {
+	display: flex;
+}
+.recommandationtitre i {
+	margin-right: 3%;
+}
+/*********************************************************FIN SECTION RECOMMANDATION*******************************************************************/
 
