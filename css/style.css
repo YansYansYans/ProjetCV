@@ -118,6 +118,15 @@ h2 {
 .diplomedate p {
 	margin-top: 0%;
 }
+.diplomecontenu {
+	display: flex;
+}
+.diplometext {
+	margin-top: -2%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-right: 50%;
+}
 /*********************************************************FIN SECTION DIPLOME*******************************************************************/
 
 /*********************************************************SECTION EXPERIENCE*******************************************************************/
@@ -135,6 +144,15 @@ h2 {
 }
 .experiencedate p {
 	margin-top: 0%;
+}
+.experiencecontenu {
+	display: flex;
+}
+.experiencetext {
+	margin-top: -2%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	margin-right: 50%;
 }
 /*********************************************************FIN SECTION EXPERIENCE*******************************************************************/
 
