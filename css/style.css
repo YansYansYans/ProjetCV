@@ -37,6 +37,11 @@ hr {
 h2 {
 	margin-top: 0%;
 }
+
+.special {
+	visibility: hidden;
+	height: 0px;
+}
 /*********************************************************MARGE DE GAUCHE*******************************************************************/
 .marge {
 	background-color: #FF5722;
@@ -165,3 +170,109 @@ h2 {
 }
 /*********************************************************FIN SECTION RECOMMANDATION*******************************************************************/
 
+
+
+
+
+@media all and (max-device-width: 576px) 
+{
+	#contener {
+		flex-direction: column;
+	}
+	.marge {
+		width: 100%;
+		
+	}
+	.titre {
+		order: 1;
+	}
+	.special {
+		height: 50%;
+		visibility: visible;
+		background-color: #FF5722;
+		margin-top: -7%;
+
+	}
+	.special h1 {
+		font-size: 7em;
+		color: white;
+		padding-top: 5%;
+		text-align: center;
+	}
+	.special h1.nom {
+		margin-top: -7%;
+	}
+	.special p {
+		font-size: 4em;
+		padding-bottom: 5%;
+		text-align: center;
+	}
+	.titre {
+		display: none;
+	}
+	.special img {
+		margin-left: 40%;
+		border-radius: 25px;
+	}
+	.marge img {
+		display: none;
+	}
+	.marge h1 {
+ 	font-size: 5em;
+	}
+	.marge {
+		margin-bottom: 15%;
+	}
+	.contact p{
+		text-align: center;
+	}
+	.moi p {
+		margin-bottom: 15%;
+	}
+	.blockright h2 {
+		font-size: 5em;
+	}
+	i.fa-graduation-cap, i.fa-briefcase, i.fa-pencil-alt {
+		font-size: 8em;
+	}
+	hr {
+		display: none;
+	}
+	.diplometitre, .experiencetitre {
+		margin-bottom: 10%;
+		margin-left: 10%;
+	}
+	.diplomecontenu, .experiencecontenu {
+		margin-left: 10%;
+		margin-bottom: 10%;
+	}
+	.diplomedate, .experiencedate {
+		font-size: 3em;
+	}
+	h3 {
+		font-size: 4em;
+		margin-top: 0%;
+	}
+	.diplometext p, .experiencetext p, .recommandationtext p {
+		font-size: 2em;
+	}
+	.diplometext p {
+		margin-left: -40%;
+	}
+	.diplometext p.minides {
+		margin-left: 0%;
+	}
+	.experiencetext p {
+		margin-left: -55%;
+		margin-top: 5%;
+		margin-right: -15%;
+	}
+	.recommandationtext {
+		margin-left: 10%;
+		margin-bottom: 40%;
+	}
+
+
+
+
+}
