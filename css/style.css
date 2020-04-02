@@ -271,6 +271,12 @@ h2 {
 		margin-left: 10%;
 		margin-bottom: 40%;
 	}
+	#marge {
+		align-items: stretch;
+	}
+	.special {
+		align-items: stretch;
+	}
 
 
 
