@@ -5,8 +5,12 @@
 
 #contener {
 	display: flex;
-}
+    padding-left: 18%;
 
+}
+h4 {
+	color: #616161;
+}
 p {
 	text-align: justify;
 }
@@ -25,7 +29,7 @@ i.far {
 hr {
 	border-color: #FF5722;
 	margin-top: -1%;
-	width: 50%;
+	width: 70%;
 	margin-left: 0%;
 	margin-bottom: 5%;
 }
@@ -42,16 +46,17 @@ h2 {
 	visibility: hidden;
 	height: 0px;
 }
+
 /*********************************************************MARGE DE GAUCHE*******************************************************************/
 .marge {
 	background-color: #FF5722;
-	width: 25%;
+	width: 50%;
 }
 .marge img {
 	width: 70%;
 	margin-left: 15%;
 	margin-top: 10%;
-	border-radius: 25px;
+	border-radius: 100px;
 }
 .marge h1 {
 	background-color: #616161;
@@ -80,6 +85,19 @@ h2 {
 	text-align: justify;
 	margin-left: 15%;
 	margin-right: 15%;
+}
+.loisir {
+	margin-top: 180%;
+	padding-bottom: 15%;
+}
+.loi {
+	display: flex;
+}
+.loi aside {
+	margin-left: 13%;
+}
+.loi i.fas {
+	color: #616161;
 }
 /*********************************************************FIN MARGE DE GAUCHE*******************************************************************/
 
@@ -128,9 +146,12 @@ h2 {
 }
 .diplometext {
 	margin-top: -2%;
-	margin-left: 5%;
+	margin-left: 15%;
 	margin-bottom: 5%;
-	margin-right: 50%;
+	margin-right: 30%;
+}
+.bbb {
+	margin-left: -18%;
 }
 /*********************************************************FIN SECTION DIPLOME*******************************************************************/
 
@@ -155,9 +176,15 @@ h2 {
 }
 .experiencetext {
 	margin-top: -2%;
-	margin-left: 5%;
+	margin-left: 10%;
 	margin-bottom: 5%;
-	margin-right: 50%;
+	margin-right: 30%;
+}
+.experiencetext1 {
+	margin-top: -2%;
+	margin-left: 13%;
+	margin-bottom: 5%;
+	margin-right: 30%;
 }
 /*********************************************************FIN SECTION EXPERIENCE*******************************************************************/
 
@@ -168,20 +195,28 @@ h2 {
 .recommandationtitre i {
 	margin-right: 3%;
 }
+.recommandationcontenu {
+	display: flex;
+}
+.recommandationtext {
+	margin-right: 10%;
+}
 /*********************************************************FIN SECTION RECOMMANDATION*******************************************************************/
 
 
 
 
 
-@media all and (max-device-width: 576px) 
+
+@media all and (max-device-width: 1024px) 
 {
 	#contener {
 		flex-direction: column;
+		width: 100%;
+		padding-left: 0%;
 	}
 	.marge {
 		width: 100%;
-		
 	}
 	.titre {
 		order: 1;
@@ -191,16 +226,16 @@ h2 {
 		visibility: visible;
 		background-color: #FF5722;
 		margin-top: -7%;
-
 	}
 	.special h1 {
 		font-size: 7em;
 		color: white;
-		padding-top: 5%;
+		padding-top: 20%;
 		text-align: center;
 	}
 	.special h1.nom {
-		margin-top: -7%;
+		margin-top: -15%;
+		margin-bottom: 20%;
 	}
 	.special p {
 		font-size: 4em;
@@ -212,7 +247,9 @@ h2 {
 	}
 	.special img {
 		margin-left: 40%;
-		border-radius: 25px;
+		border-radius: 100px;
+		margin-top: 10%;
+		margin-bottom: 10%;
 	}
 	.marge img {
 		display: none;
@@ -225,9 +262,19 @@ h2 {
 	}
 	.contact p{
 		text-align: center;
+		font-size: 3em;
 	}
 	.moi p {
 		margin-bottom: 15%;
+		font-size: 3em;
+	}
+	.loisir {
+		margin-top: 0%;
+		padding-bottom: 20%;
+	}
+	.loi i {
+		font-size: 800%;
+		margin-left: 40%;
 	}
 	.blockright h2 {
 		font-size: 5em;
@@ -236,15 +283,22 @@ h2 {
 		font-size: 8em;
 	}
 	hr {
-		display: none;
+		width: 100%;
+		height: 1.2em;
+		background-color: #FF5722;
+		margin-left: -2.5%;
+		margin-bottom: 15%;
 	}
 	.diplometitre, .experiencetitre {
 		margin-bottom: 10%;
 		margin-left: 10%;
+		margin-top: 10%;
+		margin-right: 10%;
 	}
 	.diplomecontenu, .experiencecontenu {
 		margin-left: 10%;
 		margin-bottom: 10%;
+		margin-right: 10%;
 	}
 	.diplomedate, .experiencedate {
 		font-size: 3em;
@@ -253,32 +307,48 @@ h2 {
 		font-size: 4em;
 		margin-top: 0%;
 	}
-	.diplometext p, .experiencetext p, .recommandationtext p {
-		font-size: 2em;
+	.diplometext p, .experiencetext p, .experiencetext1 p, .recommandationtext p {
+		font-size: 3em;
+
 	}
 	.diplometext p {
-		margin-left: -40%;
+		margin-left: -60%;
+		margin-right: 5%;
 	}
 	.diplometext p.minides {
 		margin-left: 0%;
 	}
 	.experiencetext p {
-		margin-left: -55%;
-		margin-top: 5%;
-		margin-right: -15%;
+		margin-left: -110%;
+		margin-right: -20%;
+		margin-top: 40%;
+	}
+	.experiencetext1 p {
+	margin-left: -80%;
+	margin-right: -25%;
+	margin-top: 40%;
 	}
 	.recommandationtext {
 		margin-left: 10%;
-		margin-bottom: 40%;
+		margin-bottom: 20%;
 	}
+	.recommandationcontenu {
+	flex-direction: column;
+}
 	#marge {
 		align-items: center;
 	}
 	.special {
 		align-items: center;
 	}
-
+	h4 {
+		font-size: 2em;
+	}
 
 
 
 }
+
+
+
+
