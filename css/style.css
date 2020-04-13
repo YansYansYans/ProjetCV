@@ -210,6 +210,10 @@ h2 {
 
 @media all and (max-device-width: 1024px) 
 {
+	body {
+		justify-content: center;
+	}
+
 	#contener {
 		flex-direction: column;
 		width: 100%;
