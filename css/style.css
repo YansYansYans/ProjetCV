@@ -331,19 +331,19 @@ h2 {
 	}
 	.diplometext p {
 		margin-left: -60%;
-		margin-right: -10%;
+		margin-right: -15%;
 	}
 	.diplometext p.minides {
 		margin-left: 0%;
 	}
 	.experiencetext p {
-		margin-left: -110%;
-		margin-right: -25%;
+		margin-left: -105%;
+		margin-right: -40%;
 		margin-top: 40%;
 	}
 	.experiencetext1 p {
 	margin-left: -85%;
-	margin-right: -30%;
+	margin-right: -50%;
 	margin-top: 40%;
 	}
 	.recommandationtext {
@@ -352,7 +352,7 @@ h2 {
 	}
 	.recommandationcontenu {
 	flex-direction: column;
-}
+	}
 	#marge {
 		align-items: center;
 	}
