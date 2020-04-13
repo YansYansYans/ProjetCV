@@ -204,14 +204,20 @@ h2 {
 /*********************************************************FIN SECTION RECOMMANDATION*******************************************************************/
 
 
-@media screen and (max-width: 987px)
+@media screen and (min-width: 644px) and (max-width: 987px)
 {
 	.marge {
 		width: 800px;
 	}
 }
 
+@media screen and (max-width: 644px)
+{
+	.marge {
+		padding-right: 50px; 
+	}
 
+}
 
 
 @media all and (max-device-width: 1024px) 
