@@ -218,6 +218,7 @@ h2 {
 		flex-direction: column;
 		width: 100%;
 		padding-left: 0%;
+		padding-right: 0%;
 	}
 	.marge {
 		width: 100%;
@@ -248,6 +249,7 @@ h2 {
 	}
 	.titre {
 		display: none;
+		font-size: 0px;
 	}
 	.special img {
 		margin-left: 40%;
