@@ -335,7 +335,7 @@ h2 {
 	margin-top: 40%;
 	}
 	.recommandationtext {
-		margin-left: 10%;
+		margin-left: 5%;
 		margin-bottom: 20%;
 	}
 	.recommandationcontenu {
@@ -350,7 +350,9 @@ h2 {
 	h4 {
 		font-size: 2em;
 	}
-
+	.recommandation hr {
+		margin-top: 10%;
+	}
 
 
 }
