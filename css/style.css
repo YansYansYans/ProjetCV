@@ -283,7 +283,7 @@ h2 {
 		margin-left: 40%;
 	}
 	.blockright h2 {
-		font-size: 5em;
+		font-size: 4em;
 	}
 	i.fa-graduation-cap, i.fa-briefcase, i.fa-pencil-alt {
 		font-size: 8em;
@@ -319,7 +319,7 @@ h2 {
 	}
 	.diplometext p {
 		margin-left: -60%;
-		margin-right: 5%;
+		margin-right: -20%;
 	}
 	.diplometext p.minides {
 		margin-left: 0%;
