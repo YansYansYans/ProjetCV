@@ -244,7 +244,7 @@ span{
 	}
 	.loi i {
 		font-size: 800%;
-		margin-left: 40%;
+	
 	}
 	.blockright h2 {
 		font-size: 4em;
@@ -256,7 +256,11 @@ span{
 		margin-bottom: 10%;
 		margin-left: 5%;
 		margin-top: 10%;
-	
+	}
+	.diplometitre, .experiencetitre, .recommandationtitre {
+	border-bottom: 5px solid #FF5722;
+	margin-right: 10%;
+	margin-bottom: 10%;
 	}
 	.diplomecontenu, .experiencecontenu {
 		margin-left: 5%;
@@ -310,8 +314,6 @@ span{
 	.recommandation hr {
 		margin-top: 10%;
 	}
-
-
 }
 
 
