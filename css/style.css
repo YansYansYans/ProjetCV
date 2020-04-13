@@ -93,12 +93,19 @@ h2 {
 }
 .loi {
 	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .loi aside {
-	margin-left: 13%;
+	justify-content: center;
 }
 .loi i.fas {
 	color: #616161;
+	border: 2px solid #616161; 
+	border-radius: 100px;
+	border-width: medium;
+	padding: 20%;
+
 }
 /*********************************************************FIN MARGE DE GAUCHE*******************************************************************/
 
