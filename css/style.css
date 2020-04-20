@@ -55,9 +55,11 @@ h2 {
 }
 .marge img {
 	width: 70%;
-	margin-left: 15%;
+	margin-left: 5%;
 	margin-top: 10%;
-	border-radius: 100px;
+	border-radius: 50%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .marge h1 {
 	background-color: #616161;
